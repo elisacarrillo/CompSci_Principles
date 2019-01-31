@@ -1,0 +1,115 @@
+def imbored():
+	print("Fortune teller")
+	name = input("What is your name?")
+	print("Hello %s. Please answer the following four questions to know your future.", %name)
+	q1 = int(input("Please choose a number 1 - 4\n"))
+	if q1 == 1:
+		case1(1)
+	elif q1== 2:
+		case1(2)
+	elif q1 == 3:
+		case1(3)			
+	elif q1 == 4:
+		case1(4)
+
+def case1(k):
+	h = input("Please choose the color red ('r'), color blue ('b'), the color green('g') or the color yellow ('y')\n")
+	h = h.upper()
+	if k == 1:
+		if h == "R":
+			case3(1)
+		if h ==  "B":
+			case3(2)
+		if h == "G":
+			case3(3)
+		if h == "Y":
+			case3(4)
+	elif k == 2:
+		if h == "R":
+			case3(5)
+		if h == "B":
+			case3(6)
+		if h == "G":
+			case3(7)
+		if h == "Y":
+			case3(8)
+	elif k == 3:
+		if h == "R":
+			case3(9)
+		if h == "B":
+			case3(10)
+		if h == "G":
+			case3(11)
+		if h == "Y":
+			case3(12)
+	elif k == 4:
+		if h == "R":
+			case3(13)
+		if h == "G":
+			case3(14)
+		if h== "Y":
+			case3(15)
+		if h == "B":
+			case3(16)
+			
+def case3(r):
+	
+	l = input("Please pick your favorite animal, dog('d'), cat('c'), bunny('b'), or other('o')\n")
+	l = l.lower()
+	if r == 1 or 5 or 9 or 13:
+		if l == "d":
+			case4(1)
+		if l == "c":
+			case4(2)
+		if l == "b":
+			case4(3)
+		if l == "o":
+			case4(4)
+	elif r == 2 or 6 or 10 or 14:
+		if l == "d":
+			case4(5)
+		if l == "c":
+			case4(6)
+		if l == "b":
+			case4(7)
+		if l == "o":
+			case4(8)
+	elif r == 3 or 7 or 11 or 15:
+		if l == "d":
+			case4(9)
+		if l == "c":
+			case4(10)
+		if l == "b":
+			case4(11)
+		if l == "o":
+			case4(12)
+	elif r == 4 or 8 or 12 or 16:
+		if l == "d":
+			case4(13)
+		if l == "c":
+			case4(14)
+		if l == "b":
+			case4(15)
+		if l == "o":
+			case4(16)
+
+def case4(z):
+	if z == 1 or 7 or 13:
+		print("You work!")
+		
+imbored()
+			
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	
