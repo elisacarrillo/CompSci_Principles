@@ -1,0 +1,6 @@
+numberchoose = int(input("Please choose a number..."))
+if (numberchoose % 2 == 0):
+    print("The number is divisible by two")
+else:
+    print("The number is odd")
+#Tests if a number is odd or even
