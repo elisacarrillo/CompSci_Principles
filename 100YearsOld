@@ -1,0 +1,11 @@
+name = raw_input("What is your name?")
+age = int(input("How old are you?"))
+
+#what year will they turn 100
+yearcurrent = 2019
+yearsaway = 100 - age
+finalanswer = yearcurrent + yearsaway
+print(name + " will be 100 in year " + str(finalanswer))
+
+
+##Figures out in what year you will be 100
